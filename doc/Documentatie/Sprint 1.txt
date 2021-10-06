@@ -1,0 +1,15 @@
+Klant:
+- Contact informatie op de landingspagina
+- Keuze naar welke pagina je verder en terug gaat in de substructuur
+- Altijd terug kunnen gaan naar het hoofdmenu
+- Menu bovenaan op iedere pagina
+- Datum en tijd op de landingspagina
+
+Opdrachtgever:
+- Als opdrachtgever wil ik een week na start van het project een navigatiediagram hebben van hoe de website eruit gaat zien.
+
+Stakeholder:
+- Inzicht in Scrum bord met lopende taken
+- Demonstratie op het einde van iedere sprint
+- Wekelijks overleg met de scrum master
+
