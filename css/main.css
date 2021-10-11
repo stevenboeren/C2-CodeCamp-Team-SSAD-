@@ -182,6 +182,7 @@ header h1{
 /* FOOTER */
 
 footer{
+  margin-top: 4rem;
   background-color: rgb(70, 70, 70);
   color: #f5fcf8;
 }
