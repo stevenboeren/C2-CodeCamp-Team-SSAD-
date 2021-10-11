@@ -142,7 +142,6 @@ header h1{
     text-shadow: 0 0 7px black;
 }
 
-
 /* Colums toegevoegd */
 .grid-container{
   display: grid;
@@ -180,7 +179,34 @@ header h1{
   color: rgb(151, 151, 151);
 }
 
+/* FOOTER */
 
+footer{
+  margin-top: 4rem;
+  background-color: rgb(70, 70, 70);
+  color: #f5fcf8;
+}
+
+footer > div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-links .fa{
+  margin: 0 .25rem;
+}
+
+.fa {
+  background: #f5fcf8;
+  color: rgb(70, 70, 70);
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

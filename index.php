@@ -12,7 +12,7 @@
 
       <div class="text-center">
         <h1>Welkom</h1>
-        <p>Welkom op mediaportal. <br> Hierop vindt je favorieten categorieen zoals flims, boeken ezo. </p>
+        <p>Welkom op mediaportal. <br> Hierop vindt je favorieten categorieen zoals flims, boeken enzo. </p>
       </div>
       
       <div class="grid-container">
@@ -30,9 +30,11 @@
         </div>     
       </div>
 
-
     </div>
   </main>
+
+  <?php require_once 'footer.php' ?>
+
 </body>
 
 </html>
