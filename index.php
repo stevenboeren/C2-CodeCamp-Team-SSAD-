@@ -10,23 +10,24 @@
   <main>
     <div class="container">
 
-      <div class="text-center">
-        <h1>Welkom</h1>
-        <p>Welkom op mediaportal. <br> Hierop vindt je favorieten categorieen zoals flims, boeken enzo. </p>
+      <div class="welcome-text">
+        <h1>Welkom op mediaportal! </h1>
+        <p>Hierop vindt je alle je favorieten media op een plek. </p>
       </div>
       
       <div class="grid-container">
         <div class="grid-item">
-            <h2><a href="index.php" class="link">Gereedschappen</a></h2>
+            <i class="fas fa-tools"></i>
+            <h2><a href="gereedschap/gereedschap.php" class="link">Gereedschappen</a></h2>
         </div>
         <div class="grid-item">
-            <h2><a href="index.php" class="link">Films</a></h2>   
+            <h2><a href="films/films.php" class="link">Films</a></h2>   
         </div>  
         <div class="grid-item">
             <h2><a href="index.php" class="link">Boeken</a></h2>
         </div>
         <div class="grid-item">
-            <h2><a href="index.php" class="link">Songteksten</a></h2>
+            <h2><a href="songteksten/songteksten.php" class="link">Songteksten</a></h2>
         </div>     
       </div>
 

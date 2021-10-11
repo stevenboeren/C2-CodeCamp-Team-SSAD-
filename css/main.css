@@ -153,30 +153,27 @@ header h1{
 .grid-item{
   padding: 50px 50px;
   margin: 5px;
-  background-color: #b3fcda;
+  background-color: #ffd9a4;
   border-radius: 30px;
   transition: transfrom ease-in-out .5s;
 }
 .grid-item:hover{
   transition: transfrom ease-in-out .5s;
-  background-color: #87fac4;
+  background-color: #ffc16b;
   transform: scale(1.02);
   color: rgb(70, 70, 70);
   cursor: pointer;
 }
 
-.grid-item:hover a{
-  color: rgb(70, 70, 70);
-}
-
-.text-center{
+.welcome-text{
   text-align: center;
+  margin: 50px 0 50px 0;
 }
 
 /* Kaarten voor de links */
 .link{
   text-decoration: none;
-  color: rgb(151, 151, 151);
+  color: rgb(70, 70, 70);
 }
 
 /* FOOTER */
