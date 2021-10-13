@@ -133,6 +133,10 @@ nav a:hover{
   color: #ffc16b;
 }
 
+main{
+  min-height: 61vh;
+}
+
 .logo{
     max-width: 250px;
 }
