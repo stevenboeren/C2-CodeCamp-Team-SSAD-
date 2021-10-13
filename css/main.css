@@ -117,8 +117,8 @@ body{
 
 header{
     font-size: 1.25rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: rgb(70, 70, 70);
     background-position: center;
 }
