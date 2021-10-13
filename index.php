@@ -28,10 +28,16 @@
         </div>
         <div class="grid-item">
             <h2><a href="songteksten/songteksten.php" class="link">Songteksten</a></h2>
-        </div>     
+        </div>  
+        <div class="grid-item">
+            <h2><a href="dranken/dranken.php" class="link">Dranken</a></h2>
+        </div>       
       </div>
 
+
     </div>
+
+    
   </main>
 
   <?php require_once 'footer.php' ?>

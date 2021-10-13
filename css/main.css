@@ -125,25 +125,30 @@ header{
 
 header, nav a{
     color: #f5fcf8;
+    text-decoration: none;
+    transition: 0.5s;
 }
 
-main{
-  min-height: 65vh;
+nav a:hover{
+  color: #ffc16b;
 }
 
 .logo{
     max-width: 250px;
 }
 
-header nav{
-    flex-grow: 1;
-    text-align: right;
-}
-
 header h1{
     font-weight: 600;
     margin: 0 ;
     text-shadow: 0 0 7px black;
+}
+
+.nav-section{
+  width: 20%;
+}
+
+.time-header{
+  text-align: right;
 }
 
 /* Colums toegevoegd */
@@ -159,7 +164,7 @@ header h1{
   margin: 5px;
   background-color: #ffd9a4;
   border-radius: 30px;
-  transition: transfrom ease-in-out .5s;
+  transition: transfrom ease-in-out 0.5s;
 }
 .grid-item:hover{
   transition: transfrom ease-in-out .5s;
@@ -167,6 +172,7 @@ header h1{
   transform: scale(1.02);
   color: rgb(70, 70, 70);
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .welcome-text{
