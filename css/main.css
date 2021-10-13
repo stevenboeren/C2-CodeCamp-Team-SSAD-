@@ -127,6 +127,10 @@ header, nav a{
     color: #f5fcf8;
 }
 
+main{
+  min-height: 65vh;
+}
+
 .logo{
     max-width: 250px;
 }
