@@ -158,7 +158,7 @@ header h1{
 /* Colums toegevoegd */
 .grid-container{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-auto-flow: dense;
 }
 
@@ -169,6 +169,10 @@ header h1{
   background-color: #ffd9a4;
   border-radius: 30px;
   transition: transfrom ease-in-out 0.5s;
+  grid-column: span 2;
+}
+.grid-large{
+  grid-column: span 3;
 }
 .grid-item:hover{
   transition: transfrom ease-in-out .5s;
