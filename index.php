@@ -17,10 +17,6 @@
       
       <div class="grid-container">
         <div class="grid-item">
-            <i class="fas fa-tools"></i>
-            <h2><a href="gereedschap/gereedschap.php" class="link">Gereedschappen</a></h2>
-        </div>
-        <div class="grid-item">
             <h2><a href="films/films.php" class="link">Films</a></h2>   
         </div>  
         <div class="grid-item">
@@ -28,8 +24,12 @@
         </div>
         <div class="grid-item">
             <h2><a href="songteksten/songteksten.php" class="link">Songteksten</a></h2>
-        </div>  
-        <div class="grid-item">
+        </div>
+        <div class="grid-item grid-large">
+            <i class="fas fa-tools"></i>
+            <h2><a href="gereedschap/gereedschap.php" class="link">Gereedschappen</a></h2>
+        </div>
+        <div class="grid-item grid-large">
             <h2><a href="dranken/dranken.php" class="link">Dranken</a></h2>
         </div>       
       </div>
