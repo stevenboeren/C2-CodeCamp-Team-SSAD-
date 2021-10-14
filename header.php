@@ -5,7 +5,11 @@
         </div>
         <nav>
             <a href="<?php echo $base_url; ?>/index.php">Home</a> |
-            <a href="<?php echo $base_url; ?>/contact.php">Contact</a>
+            <a href="<?php echo $base_url; ?>/gereedschap/gereedschap.php">Gereedschappen</a> |
+            <a href="<?php echo $base_url; ?>/films/films.php">Films</a> |
+            <a href="<?php echo $base_url; ?>/boeken/boeken.php">Boeken</a> |
+            <a href="<?php echo $base_url; ?>/songteksten/songteksten.php">Songteksten</a> |
+            <a href="<?php echo $base_url; ?>/dranken/dranken.php">Dranken</a>
         </nav>
         <body onload="startTime()">
         <div class="nav-section">
