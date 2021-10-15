@@ -223,6 +223,7 @@ footer > div{
   border-radius: 50%;
 }
 
+
 /* ==========================================================================
    Saskia code
    ========================================================================== */
@@ -306,6 +307,13 @@ footer > div{
   justify-content: space-between;
 }
 
+.item-page-songtekst .right{
+  justify-content: center;
+}
+
+.bold-text{
+  font-weight: bold;
+}
 
 .btn {
   width: 160px;
