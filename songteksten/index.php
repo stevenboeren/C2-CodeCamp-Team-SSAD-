@@ -11,7 +11,7 @@
     <div class="container selection">
 
         <div class="welcome-message">
-            <h2>Gereedschappen</h2>
+            <h2>Songteksen</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit at sit odio aliquam est, molestiae tempora, esse nulla necessitatibus quisquam animi repellendus libero, unde iure ullam debitis possimus sapiente porro.</p>
         </div>
         
