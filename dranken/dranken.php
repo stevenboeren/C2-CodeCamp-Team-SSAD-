@@ -18,7 +18,7 @@
       <div class="grid-container">
         <div class="grid-item">
             <i class="fas fa-tools"></i>
-            <h2><a href="<?php echo $base_url; ?>/dranken/frisdranken/frisdrank.php" class="link">Frisdranken</a></h2>
+            <h2><a href="<?php echo $base_url; ?>/dranken/frisdranken/frisdranken.php" class="link">Frisdranken</a></h2>
         </div>
         <div class="grid-item">
             <h2><a href="<?php echo $base_url; ?>/dranken/warmedranken/warmedranken.php" class="link">Warme Dranken</a></h2>   
