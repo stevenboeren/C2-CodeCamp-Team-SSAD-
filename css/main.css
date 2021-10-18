@@ -357,11 +357,28 @@ footer > div{
 }
 
 
+/* Dranken css */
+
 #drink-img{
   width: 50%;
   border-radius: 5px;
 }
 
+.button{
+  text-decoration: none;
+  background-color: aliceblue;
+  color: #000;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+
+.button:hover{
+  background-color: #ffc16b;
+  color: rgb(255, 255, 255);
+}
 
 
 /* ==========================================================================
