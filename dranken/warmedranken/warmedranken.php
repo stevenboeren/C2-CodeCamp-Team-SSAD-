@@ -25,7 +25,8 @@
             <div class="left">
                 <div class="item-information-text">
                   <h3>Koffie</h3>
-                  <p>Koffie is een meestal warm genuttigde drank, die wordt bereid op basis van water en gedroogde en gebrande pitten van de koffieplant (Coffea spp.) die vanwege hun vorm koffiebonen worden genoemd. <br> Koffie bevat het stimulerende middel cafeïne.</p>    
+                  <p>Koffie is een meestal warm genuttigde drank, die wordt bereid op basis van water en gedroogde en gebrande pitten van de koffieplant (Coffea spp.) die vanwege hun vorm koffiebonen worden genoemd. <br> Koffie bevat het stimulerende middel cafeïne.</p>
+                  <a href="<?php echo $base_url; ?>/dranken/warmedranken/georgeclooney.php" class="button">Ga naar George Clooney</a>     
                 </div>
             </div>
             <div class="right">
