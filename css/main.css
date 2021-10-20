@@ -276,6 +276,7 @@ footer > div{
 
 .page-content-format img{
   width: 500px;
+  border-radius: 5px;
 }
 
 .selection h3, .item-page h3{
@@ -334,6 +335,7 @@ footer > div{
   background: rgb(70, 70, 70);
   color: #fff;
   z-index: 1;
+  border-radius: 5px;
 }
 .btn-buy-link:after {
   position: absolute;
