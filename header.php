@@ -7,7 +7,7 @@
             <a href="<?php echo $base_url; ?>/index.php">Home</a> |
             <a href="<?php echo $base_url; ?>/gereedschappen/index.php">Gereedschappen</a> |
             <a href="<?php echo $base_url; ?>/films/index.php">Films</a> |
-            <a href="<?php echo $base_url; ?>/boeken/boeken.php">Boeken</a> |
+            <a href="<?php echo $base_url; ?>/boeken/index.php">Boeken</a> |
             <a href="<?php echo $base_url; ?>/songteksten/index.php">Songteksten</a> |
             <a href="<?php echo $base_url; ?>/dranken/dranken.php">Dranken</a>
         </nav>

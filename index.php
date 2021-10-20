@@ -20,7 +20,7 @@
             <h2><a href="films/index.php" class="link">Films</a></h2>   
         </div>  
         <div class="grid-item">
-            <h2><a href="index.php" class="link">Boeken</a></h2>
+            <h2><a href="boeken/index.php" class="link">Boeken</a></h2>
         </div>
         <div class="grid-item">
             <h2><a href="songteksten/index.php" class="link">Songteksten</a></h2>
