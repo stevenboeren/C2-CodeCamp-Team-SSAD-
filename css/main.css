@@ -380,6 +380,21 @@ footer > div{
   color: rgb(255, 255, 255);
 }
 
+/* Boeken css */
+
+.page-content-format .book-img{
+  width: 70%;
+  border-radius: 5px;
+}
+
+.book-info{
+  align-items: left;
+}
+
+.book{
+  width: auto;
+}
+
 
 /* ==========================================================================
    Helper classes
