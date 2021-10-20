@@ -138,18 +138,21 @@ main{
 }
 
 .logo{
-    width: 25%;
+    width: 20%;
     padding: 0;
 }
 
 header h1{
     font-weight: 600;
     margin: 0 ;
+    padding-top: 5px;
     text-shadow: 0 0 7px black;
+    font-size: 35px;
 }
 
 .nav-section{
   width: 20%;
+  align-items: baseline;
 }
 
 .time-header{
