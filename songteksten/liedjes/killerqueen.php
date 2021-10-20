@@ -3,7 +3,7 @@
 
 <?php require_once '../../head.php' ?>
 
-<body>
+<body class="blue white-text">
 
   <?php require_once '../../header.php' ?>
 
