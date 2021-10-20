@@ -34,6 +34,12 @@
             <div class="grid-item" style="background-image: url('<?php echo $base_url; ?>/img/gereedschappen/decoupeerzaag.jpg')">
                 <div class="item-text"><a href="<?php echo $base_url; ?>/gereedschappen/items/decoupeerzaag.php">Decoupeerzaag</a></div>
             </div>
+            <div class="grid-item" style="background-image: url('<?php echo $base_url; ?>/img/gereedschappen/schroevendraaier.jpg')">
+                <div class="item-text"><a href="<?php echo $base_url; ?>/gereedschappen/items/schroevendraaier.php">Schroevendraaier</a></div>
+            </div>
+            <div class="grid-item" style="background-image: url('<?php echo $base_url; ?>/img/gereedschappen/handzaag.jpg')">
+                <div class="item-text"><a href="<?php echo $base_url; ?>/gereedschappen/items/handzaag.php">Handzaag</a></div>
+            </div>
         </div>
 
     </div>
