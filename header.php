@@ -1,7 +1,7 @@
 <header >
     <div class="container header">
         <div class="nav-section">
-            <h1>MediaPortal</h1>
+            <h1><img class="logo" src="<?php echo $base_url; ?>/img/logo.png" alt="logo"> MediaPortal</h1>
         </div>
         <nav>
             <a href="<?php echo $base_url; ?>/index.php">Home</a> |
