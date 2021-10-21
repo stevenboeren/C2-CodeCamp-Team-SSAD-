@@ -16,8 +16,8 @@ class CreateToolsTable extends Migration
         Schema::create('tools', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('description');
-            $table->string('img_url');
+            $table->string('description')->nullable();
+            $table->string('img_url')->nullable();
             $table->timestamps();
         });
     }

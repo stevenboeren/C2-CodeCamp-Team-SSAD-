@@ -17,9 +17,9 @@ class CreateLyricsTable extends Migration
             $table->id();
             $table->string('songname');
             $table->string('songartist');
-            $table->string('year');
-            $table->string('lyrics');
-            $table->string('img_url');
+            $table->string('year')->nullable();
+            $table->string('lyrics')->nullable();
+            $table->string('img_url')->nullable();
             $table->timestamps();
         });
     }
