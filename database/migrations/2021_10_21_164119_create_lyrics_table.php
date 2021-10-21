@@ -16,6 +16,7 @@ class CreateLyricsTable extends Migration
         Schema::create('lyrics', function (Blueprint $table) {
             $table->id();
             $table->string('songname');
+            $table->string('songartist');
             $table->string('description');
             $table->string('img-url');
             $table->timestamps();
