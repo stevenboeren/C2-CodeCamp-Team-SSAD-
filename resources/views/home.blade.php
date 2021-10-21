@@ -2,12 +2,12 @@
 
 @section('nav')
     <nav>
-        <a href="/" class="active">Home</a> |
-        <a href="/gereedschappen">Gereedschappen</a> |
-        <a href="/films">Films</a> |
-        <a href="/boeken">Boeken</a> |
-        <a href="/songteksten">Songteksten</a> |
-        <a href="/dranken">Dranken</a>
+        <a href="/">Home</a> |
+        <a href="/book">Boeken</a> |
+        <a href="/drinks">Dranken</a> |
+        <a href="/movies">Films</a> |
+        <a href="/tools">Gereedschappen</a> |
+        <a href="/lyrics">Songteksten</a>
     </nav>
 @endsection
 
@@ -21,22 +21,23 @@
 </div>
 
 <div class="grid-container">
+   
   <div class="grid-item">
-      <h2><a href="films/index.php" class="link">Films</a></h2>   
+      <h2><a href="/book" class="link">Boeken</a></h2>
+  </div>
+  <div class="grid-item ">
+      <h2><a href="/drinks" class="link">Dranken</a></h2>
   </div>  
   <div class="grid-item">
-      <h2><a href="boeken/index.php" class="link">Boeken</a></h2>
-  </div>
-  <div class="grid-item">
-      <h2><a href="songteksten/index.php" class="link">Songteksten</a></h2>
+      <h2><a href="/movies" class="link">Films</a></h2>   
+  </div> 
+  <div class="grid-item grid-large">
+      <h2><a href="/tools" class="link">Gereedschappen</a></h2>
   </div>
   <div class="grid-item grid-large">
-      <i class="fas fa-tools"></i>
-      <h2><a href="gereedschappen/index.php" class="link">Gereedschappen</a></h2>
+      <h2><a href="/lyrics" class="link">Songteksten</a></h2>
   </div>
-  <div class="grid-item grid-large">
-      <h2><a href="dranken/dranken.php" class="link">Dranken</a></h2>
-  </div>       
+        
 </div>
     
 
