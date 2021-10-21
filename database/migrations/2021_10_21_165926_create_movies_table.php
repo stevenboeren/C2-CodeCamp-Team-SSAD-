@@ -17,7 +17,7 @@ class CreateMoviesTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('actor');
-            $table->string('description')->nullable();
+            $table->text('description')->nullable();
             $table->string('img_url')->nullable();
             $table->timestamps();
         });

@@ -16,7 +16,7 @@ class CreateMoviesActorsTable extends Migration
         Schema::create('movies_actors', function (Blueprint $table) {
             $table->id();
             $table->string('fullname');
-            $table->string('description')->nullable();
+            $table->text('description')->nullable();
             $table->string('img_url')->nullable();
             $table->timestamps();
         });
