@@ -21,18 +21,11 @@
     </div>
     
     <div class="grid">
-        <div class="grid-item" style="background-image: url('/img/boeken/zuurstofschuld.jpeg')">
-            <div class="item-text"><a href="">Zuurstofschuld</a></div>
+        @foreach($books as $book)
+        <div class="grid-item" style="background-image: url('img/boeken/{{$book->img_url}}')">
+            <div class="item-text"><a href="/show/{{$book->id}}">{{ $book->name }}</a></div>
         </div>
-        <div class="grid-item" style="background-image: url('/img/boeken/klifi.jpeg')">
-            <div class="item-text"><a href="">KliFi</a></div>
-        </div>
-        <div class="grid-item" style="background-image: url('/img/boeken/amir.jpeg')">
-            <div class="item-text"><a href="">Amir</a></div>
-        </div>
-        <div class="grid-item" style="background-image: url('/img/boeken/alles-is-weg.jpeg')">
-            <div class="item-text"><a href="">Alles is weg</a></div>
-        </div>
+        @endforeach
         
     </div>
 
