@@ -17,7 +17,7 @@
 
     <div class="welcome-message">
         <h2>Boeken</h2>
-        <p>Een boek in traditionele zin is een samengevoegde hoeveelheid papier met tekst, afbeeldingen of allebei. Daarnaast wordt met de term de betreffende informatie, of een soortgelijke verzameling informatie, aangeduid ('een boek schrijven', 'een boek downloaden'). Hier is een lijst met boeken</p>
+        <p>Lekker een boek lezen, maar weet niet welke. Hier is een lijst met boeken</p>
     </div>
     
     <div class="grid">
