@@ -19,7 +19,7 @@ class CreateLyricsTable extends Migration
             $table->string('songartist');
             $table->string('year');
             $table->string('lyrics');
-            $table->string('img-url');
+            $table->string('img_url');
             $table->timestamps();
         });
     }

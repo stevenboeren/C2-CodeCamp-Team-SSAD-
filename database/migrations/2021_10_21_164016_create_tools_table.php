@@ -17,7 +17,7 @@ class CreateToolsTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('description');
-            $table->string('img-url');
+            $table->string('img_url');
             $table->timestamps();
         });
     }
