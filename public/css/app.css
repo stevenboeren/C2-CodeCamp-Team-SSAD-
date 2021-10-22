@@ -17,6 +17,10 @@ body{
   margin: 0 auto;
 }
 
+h1{
+  padding-bottom: .6em;
+}
+
 /* ==========================================================================
    Header / Nav
    ========================================================================== */
@@ -75,26 +79,26 @@ main{
   min-height: 60vh;
 }
 
-/* Colums toegevoegd */
-.grid-container{
+/* Index */
+.categories{
+  padding: 3em 0;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-auto-flow: dense;
 }
-  
-/* Index pagina styling */
-.grid-item{
-  padding: 50px 50px;
+
+.category-item{
+  padding: 70px 60px;
   margin: 5px;
   background-color: #ffd9a4;
   border-radius: 30px;
   transition: transfrom ease-in-out 0.5s;
   grid-column: span 2;
 }
-.grid-large{
+.category-large{
   grid-column: span 3;
 }
-.grid-item:hover{
+.category-item:hover{
   transition: transfrom ease-in-out .5s;
   background-color: #ffc16b;
   transform: scale(1.02);

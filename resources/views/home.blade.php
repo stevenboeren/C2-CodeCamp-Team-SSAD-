@@ -20,21 +20,21 @@
   <p>Hierop vindt je alle je favorieten media op een plek. </p>
 </div>
 
-<div class="grid-container">
+<div class="categories">
    
-  <div class="grid-item">
+  <div class="category-item">
       <h2><a href="/books" class="link">Boeken</a></h2>
   </div>
-  <div class="grid-item ">
+  <div class="category-item ">
       <h2><a href="/drinks" class="link">Dranken</a></h2>
   </div>  
-  <div class="grid-item">
+  <div class="category-item">
       <h2><a href="/movies" class="link">Films</a></h2>   
   </div> 
-  <div class="grid-item grid-large">
+  <div class="category-item category-large">
       <h2><a href="/tools" class="link">Gereedschappen</a></h2>
   </div>
-  <div class="grid-item grid-large">
+  <div class="category-item category-large">
       <h2><a href="/lyrics" class="link">Songteksten</a></h2>
   </div>
         
