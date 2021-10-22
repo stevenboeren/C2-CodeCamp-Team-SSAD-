@@ -2,11 +2,14 @@
    Body
    ========================================================================== */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body{
   font-family: 'Ubuntu', sans-serif;
   background-color: rgb(243, 248, 255);
-  margin: 0;
-  padding: 0;
 }
 
 .container{
@@ -27,6 +30,8 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 13vh;
+  display: flex;
 }
 
 header, nav a{
@@ -66,7 +71,8 @@ header h1{
    ========================================================================== */
 
 main{
-  min-height: 61vh;
+  padding: 7vh 0;
+  min-height: 60vh;
 }
 
 /* Colums toegevoegd */
@@ -99,8 +105,8 @@ main{
 
 .welcome-text{
   text-align: center;
-  margin: 50px 0 50px 0;
 }
+
 /* Kaarten voor de links */
 .link{
   text-decoration: none;
@@ -155,12 +161,13 @@ main{
    ========================================================================== */
 
 footer{
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
   background-color: rgb(70, 70, 70);
   color: #f5fcf8;
 }
 
 footer > div{
+  height: 13vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
