@@ -22,7 +22,8 @@
         <header>
             <div class="container header">
                 <div class="nav-section">
-                    <h1><img class="logo" src="/img/logo.png" alt="logo"> MediaPortal</h1>
+                    <img class="logo" src="/img/logo.png" alt="logo">
+                    <h1>MediaPortal</h1>
                 </div>
                 @yield('nav')
                 <body onload="startTime()">

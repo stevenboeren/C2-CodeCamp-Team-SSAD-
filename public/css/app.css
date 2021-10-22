@@ -1,4 +1,7 @@
-/* Body */
+/* ==========================================================================
+   Body
+   ========================================================================== */
+
 body{
   font-family: 'Ubuntu', sans-serif;
   background-color: rgb(243, 248, 255);
@@ -6,32 +9,27 @@ body{
   padding: 0;
 }
 
-/* HEADER + NAV */
-.container.header{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .container{
   max-width: 85%;
   margin: 0 auto;
 }
 
-.container.content{
-  display: grid;
-  grid-template-columns: 250px 1fr;
-  margin-top: 3rem;
-  -moz-column-gap: 5rem;
-  column-gap: 5rem;
-}
+/* ==========================================================================
+   Header / Nav
+   ========================================================================== */
 
 header{
   font-size: 1.25rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  /* padding-top: 1rem;
+  padding-bottom: 1rem; */
   background-color: rgb(70, 70, 70);
-  background-position: center;
+  /* background-position: center; */
+}
+
+.container.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header, nav a{
@@ -44,34 +42,39 @@ nav a:hover{
   color: #ffc16b;
 }
 
-main{
-  min-height: 61vh;
-}
-
 .logo{
   width: 20%;
-  padding: 0;
+  margin-right: 2%;
 }
 
 header h1{
   font-weight: 600;
   margin: 0 ;
-  padding-top: 5px;
   text-shadow: 0 0 7px black;
   font-size: 35px;
 }
 
 .nav-section{
-  width: 20%;
-  align-items: baseline;
+  width: 25%;
+  display: flex;
+  align-items: center;
 }
+
+/* nav{
+  width: 40%;
+} */
 
 .time-header{
-  text-align: right;
+  margin-left: auto;
 }
 
+/* ==========================================================================
+   Main
+   ========================================================================== */
 
-/* Main */
+main{
+  min-height: 61vh;
+}
 
 /* Colums toegevoegd */
 .grid-container{
@@ -154,12 +157,9 @@ header h1{
   font-size: 18px;
 }
 
-
-
-
-
-
-/* FOOTER */
+/* ==========================================================================
+   Footer
+   ========================================================================== */
 
 footer{
   margin-top: 4rem;
