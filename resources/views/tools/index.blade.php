@@ -21,30 +21,30 @@
     </div>
     
     <div class="selection">
-        <div class="selection-item" style="background-image: url('/img/gereedschappen/cirkelzaag.jpg')">
-            <div class="item-text"><a href="">Cirkelzaag</a></div>
-        </div>
-        <div class="selection-item" style="background-image: url('/img/gereedschappen/figuurzaag.jpg')">
-            <div class="item-text"><a href="">Figuurzaag</a></div>
-        </div>
-        <div class="selection-item" style="background-image: url('/img/gereedschappen/kettingzaag.jpg')">
-            <div class="item-text"><a href="">Kettingzaag</a></div>
-        </div>
-        <div class="selection-item" style="background-image: url('/img/gereedschappen/hamer.png')">
-            <div class="item-text"><a href="">Hamer</a></div>
-        </div>
-        <div class="selection-item" style="background-image: url('/img/gereedschappen/gatenzaag.jpg')">
-            <div class="item-text"><a href="">Gatenzaag</a></div>
-        </div>
-        <div class="selection-item" style="background-image: url('/img/gereedschappen/decoupeerzaag.jpg')">
-            <div class="item-text"><a href="">Decoupeerzaag</a></div>
-        </div>
-        <div class="selection-item" style="background-image: url('/img/gereedschappen/schroevendraaier.jpg')">
-            <div class="item-text"><a href="">Schroevendraaier</a></div>
-        </div>
-        <div class="selection-item" style="background-image: url('/img/gereedschappen/handzaag.jpg')">
-            <div class="item-text"><a href="">Handzaag</a></div>
-        </div>
+        <a class="selection-item" style="background-image: url('/img/gereedschappen/cirkelzaag.jpg')" href="">
+            <span class="item-text">Cirkelzaag</span>
+        </a>
+        <a class="selection-item" style="background-image: url('/img/gereedschappen/figuurzaag.jpg')" href="">
+            <span class="item-text">Figuurzaag</span>
+        </a>
+        <a class="selection-item" style="background-image: url('/img/gereedschappen/kettingzaag.jpg')" href="">
+            <span class="item-text">Kettingzaag</span>
+        </a>
+        <a class="selection-item" style="background-image: url('/img/gereedschappen/hamer.png')" href="">
+            <span class="item-text">Hamer</span>
+        </a>
+        <a class="selection-item" style="background-image: url('/img/gereedschappen/gatenzaag.jpg')" href="">
+            <span class="item-text">Gatenzaag</span>
+        </a>
+        <a class="selection-item" style="background-image: url('/img/gereedschappen/decoupeerzaag.jpg')" href="">
+            <span class="item-text">Decoupeerzaag</span>
+        </a>
+        <a class="selection-item" style="background-image: url('/img/gereedschappen/schroevendraaier.jpg')" href="">
+            <span class="item-text">Schroevendraaier</span>
+        </a>
+        <a class="selection-item" style="background-image: url('/img/gereedschappen/handzaag.jpg')" href="">
+            <span class="item-text">Handzaag</span>
+        </a>
     </div>
 
 </div>

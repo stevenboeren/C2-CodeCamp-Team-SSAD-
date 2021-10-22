@@ -22,9 +22,9 @@
     
     <div class="selection">
         @foreach($books as $book)
-        <div class="selection-item" style="background-image: url('img/boeken/{{$book->img_url}}')">
-            <div class="item-text"><a href="/books/{{ $book->id }}">{{ $book->name }}</a></div>
-        </div>
+        <a class="selection-item" style="background-image: url('img/boeken/{{$book->img_url}}')" href="/books/{{ $book->id }}">
+            <span class="item-text">{{ $book->name }}</span>
+        </a>
         @endforeach
     </div>
 
