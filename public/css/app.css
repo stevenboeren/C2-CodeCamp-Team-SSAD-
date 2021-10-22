@@ -79,7 +79,14 @@ main{
   min-height: 60vh;
 }
 
-/* Index */
+.welcome-text{
+  text-align: center;
+}
+
+/*
+ * Home
+ */
+
 .categories{
   padding-top: 3em;
   display: grid;
@@ -107,28 +114,24 @@ main{
   transition: 0.5s;
 }
 
-.welcome-text{
-  text-align: center;
-}
-
 /* Kaarten voor de links */
 .link{
   text-decoration: none;
   color: rgb(70, 70, 70);
 }
 
-/* Styling voor categorie index */
-.selection .welcome-message{
-  text-align: center;
-}
+/*
+ * Category selection
+ */
 
-.selection .grid{
+.selection{
+  padding-top: 3em;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
 
-.selection .grid-item{
+.selection-item{
   padding: 0;
   margin: 0;
   display: flex;
@@ -154,7 +157,7 @@ main{
   box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.7);
 }
 
-.selection .grid a{
+.selection a{
   text-decoration: none;
   color: #fff;
   font-size: 18px;

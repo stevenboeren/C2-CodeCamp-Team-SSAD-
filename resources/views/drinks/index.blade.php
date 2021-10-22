@@ -20,12 +20,12 @@
         <p>Hierop vindt je alle je favorieten onderwerpen over Dranken. </p>
     </div>
 
-    <div class="grid-container">
-        <div class="grid-item">
+    <div class="selection">
+        <div class="selection-item">
             <i class="fas fa-tools"></i>
             <h2><a href="" class="link">Frisdranken</a></h2>
         </div>
-        <div class="grid-item">
+        <div class="selection-item">
             <h2><a href="" class="link">Warme Dranken</a></h2>   
         </div>      
     </div>
