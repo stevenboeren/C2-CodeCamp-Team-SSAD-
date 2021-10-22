@@ -22,21 +22,21 @@
 
 <div class="categories">
    
-  <div class="category-item">
-      <h2><a href="/books">Boeken</a></h2>
-  </div>
-  <div class="category-item ">
-      <h2><a href="/drinks">Dranken</a></h2>
-  </div>  
-  <div class="category-item">
-      <h2><a href="/movies">Films</a></h2>   
-  </div> 
-  <div class="category-item category-large">
-      <h2><a href="/tools">Gereedschappen</a></h2>
-  </div>
-  <div class="category-item category-large">
-      <h2><a href="/lyrics">Songteksten</a></h2>
-  </div>
+    <a href="/books" class="category-item">
+        <h2>Boeken</h2>
+    </a>
+    <a href="/drinks" class="category-item ">
+        <h2>Dranken</h2>
+    </a>
+    <a href="/movies" class="category-item">
+        <h2>Films</h2>   
+    </a>
+    <a href="/tools" class="category-item category-large">
+        <h2>Gereedschappen</h2>
+    </a>
+    <a href="/lyrics" class="category-item category-large">
+        <h2>Songteksten</h2>
+    </a>
         
 </div>
     

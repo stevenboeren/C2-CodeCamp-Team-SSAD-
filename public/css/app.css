@@ -101,10 +101,14 @@ main{
   border-radius: 30px;
   transition: transfrom ease-in-out 0.5s;
   grid-column: span 2;
+  text-decoration: none;
+  color: rgb(70, 70, 70);
 }
+
 .category-large{
   grid-column: span 3;
 }
+
 .category-item:hover{
   transition: transfrom ease-in-out .5s;
   background-color: #ffc16b;
@@ -112,11 +116,6 @@ main{
   color: rgb(70, 70, 70);
   cursor: pointer;
   transition: 0.5s;
-}
-
-.category-item a{
-  text-decoration: none;
-  color: rgb(70, 70, 70);
 }
 
 /*
