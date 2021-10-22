@@ -3,7 +3,7 @@
 @section('nav')
     <nav>
         <a href="/">Home</a> |
-        <a href="/book">Boeken</a> |
+        <a href="/books">Boeken</a> |
         <a href="/drinks">Dranken</a> |
         <a href="/movies">Films</a> |
         <a href="/tools">Gereedschappen</a> |

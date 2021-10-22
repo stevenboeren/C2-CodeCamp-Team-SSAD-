@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('nav')
-    <nav>
+    <nav>   
         <a href="/">Home</a> |
         <a href="/books">Boeken</a> |
         <a href="/drinks">Dranken</a> |

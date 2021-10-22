@@ -3,11 +3,11 @@
 @section('nav')
     <nav>
         <a href="/">Home</a> |
-        <a href="/tools">Gereedschappen</a> |
+        <a href="/books">Boeken</a> |
+        <a href="/drinks">Dranken</a> |
         <a href="/movies">Films</a> |
-        <a href="/boeken">Boeken</a> |
-        <a href="/lyrics">Songteksten</a> |
-        <a href="/drinks">Dranken</a>
+        <a href="/tools">Gereedschappen</a> |
+        <a href="/lyrics">Songteksten</a>
     </nav>
 @endsection
 
