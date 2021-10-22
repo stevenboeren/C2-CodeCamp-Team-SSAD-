@@ -3,7 +3,7 @@
 @section('nav')
     <nav>
         <a href="/">Home</a> |
-        <a href="/book">Boeken</a> |
+        <a href="/books">Boeken</a> |
         <a href="/drinks">Dranken</a> |
         <a href="/movies">Films</a> |
         <a href="/tools">Gereedschappen</a> |
@@ -23,7 +23,7 @@
 <div class="grid-container">
    
   <div class="grid-item">
-      <h2><a href="/book" class="link">Boeken</a></h2>
+      <h2><a href="/books" class="link">Boeken</a></h2>
   </div>
   <div class="grid-item ">
       <h2><a href="/drinks" class="link">Dranken</a></h2>

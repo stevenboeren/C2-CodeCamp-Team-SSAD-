@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\BookController;
+use App\Http\Controllers\BooksController;
 use App\Http\Controllers\DrinksController;
 use App\Http\Controllers\LyricsController;
 use App\Http\Controllers\MoviesController;
@@ -20,7 +20,11 @@ use App\Http\Controllers\ToolsController;
 */
 Route::redirect('/', '/MediaPortal');
 Route::get('/MediaPortal', [HomeController::class, 'index'])->name('home');
-Route::get('/book', [BookController::class, 'index'])->name('book.index');
+
+
+Route::get('/books', [BooksController::class, 'index'])->name('books.index');
+Route::get('/books/{book}', [BooksController::class, 'show'])->name('books.show');
+
 Route::get('/drinks', [DrinksController::class, 'index'])->name('drinks.index');
 Route::get('/lyrics', [LyricsController::class, 'index'])->name('lyrics.index');
 Route::get('/movies', [MoviesController::class, 'index'])->name('movies.index');

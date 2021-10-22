@@ -3,7 +3,7 @@
 @section('nav')
     <nav>
         <a href="/">Home</a> |
-        <a href="/book">Boeken</a> |
+        <a href="/books">Boeken</a> |
         <a href="/drinks">Dranken</a> |
         <a href="/movies">Films</a> |
         <a href="/tools">Gereedschappen</a> |
@@ -23,7 +23,7 @@
     <div class="grid">
         @foreach($books as $book)
         <div class="grid-item" style="background-image: url('img/boeken/{{$book->img_url}}')">
-            <div class="item-text"><a href="/show/{{$book->id}}">{{ $book->name }}</a></div>
+            <div class="item-text"><a href="/books/{{ $book->id }}">{{ $book->name }}</a></div>
         </div>
         @endforeach
         
