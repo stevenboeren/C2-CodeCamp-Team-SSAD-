@@ -23,19 +23,19 @@
 <div class="categories">
    
   <div class="category-item">
-      <h2><a href="/books" class="link">Boeken</a></h2>
+      <h2><a href="/books">Boeken</a></h2>
   </div>
   <div class="category-item ">
-      <h2><a href="/drinks" class="link">Dranken</a></h2>
+      <h2><a href="/drinks">Dranken</a></h2>
   </div>  
   <div class="category-item">
-      <h2><a href="/movies" class="link">Films</a></h2>   
+      <h2><a href="/movies">Films</a></h2>   
   </div> 
   <div class="category-item category-large">
-      <h2><a href="/tools" class="link">Gereedschappen</a></h2>
+      <h2><a href="/tools">Gereedschappen</a></h2>
   </div>
   <div class="category-item category-large">
-      <h2><a href="/lyrics" class="link">Songteksten</a></h2>
+      <h2><a href="/lyrics">Songteksten</a></h2>
   </div>
         
 </div>
