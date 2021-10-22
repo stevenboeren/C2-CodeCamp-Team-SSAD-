@@ -178,11 +178,8 @@ footer > div{
   justify-content: space-between;
 }
 
-.social-links .fa{
-  margin: 0 .25rem;
-}
-
 .social-links .fa {
+  margin: 0 .25rem;
   background: #f5fcf8;
   color: rgb(70, 70, 70);
   padding: 12px;
