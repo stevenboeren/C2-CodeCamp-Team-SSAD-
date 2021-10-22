@@ -81,7 +81,7 @@ main{
 
 /* Index */
 .categories{
-  padding: 3em 0;
+  padding-top: 3em;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-auto-flow: dense;
