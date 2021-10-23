@@ -29,16 +29,26 @@
                 @yield('nav')
                 <body onload="startTime()">
                 <div class="nav-section">
-                    <h2 class="time-header" id="txt"></h2> 
+                    <div class="clock">
+                        <h2 id="time"></h2>
+                        <p id="date"></p>
+                    </div>
                 </div>    
                 <script>
                     function startTime() {
                     const today = new Date();
+
                     let h = today.getHours();
                     let m = today.getMinutes();
                     m = checkTime(m);
-                    document.getElementById('txt').innerHTML =  h + ":" + m;
+                    document.getElementById('time').innerHTML =  h + ":" + m;
                     setTimeout(startTime, 1000);
+                    
+                    let day = (("0"+today.getDate()).slice(-2));
+                    let month = (("0"+(today.getMonth()+1)).slice(-2));
+                    let year = (today.getFullYear());
+
+                    document.getElementById('date').innerHTML = day + "/"+ month + "/" + year;
                     }
 
                     function checkTime(i) {
