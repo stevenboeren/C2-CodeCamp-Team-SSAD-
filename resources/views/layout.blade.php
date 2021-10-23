@@ -65,8 +65,8 @@
         <footer>
             <div class="container">
                 <div>
-                    <p>E-mail: someone@somewhere.com</p>
-                    <p>Tel: +316434592847</p>
+                    <p>E-mail:&nbsp; info@mediaportal.com</p>
+                    <p>Tel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +31 6525 1566525</p>
                 </div>
                 <div class="social-links">
                     <a href="#" class="fa fa-facebook"></a>

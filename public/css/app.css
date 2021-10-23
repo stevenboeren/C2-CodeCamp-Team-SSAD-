@@ -41,7 +41,7 @@ header{
 header, nav a{
   color: #f5fcf8;
   text-decoration: none;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 nav a:hover{
@@ -108,10 +108,11 @@ main{
   margin: 5px;
   background-color: #ffd9a4;
   border-radius: 30px;
-  transition: transfrom ease-in-out 0.5s;
+  transition: transfrom ease-in-out 0.3s;
   grid-column: span 2;
   text-decoration: none;
   color: rgb(70, 70, 70);
+  box-shadow: 0 4px 0 -2px rgb(10 10 10 / 25%);
 }
 
 .category-large{
@@ -122,9 +123,8 @@ main{
   transition: transfrom ease-in-out .5s;
   background-color: #ffc16b;
   transform: scale(1.02);
-  color: rgb(70, 70, 70);
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 /*
@@ -168,17 +168,18 @@ main{
   text-decoration: none;
   color: #fff;
   font-size: 18px;
-  transition: transfrom ease-in-out 0.5s;
+  transition: transfrom ease-in-out 0.3s;
 }
 
 .selection a:hover{
   transform: scale(1.02);
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 /*
  * Category selection one page
  */
+
 .page-content{
   display: flex;
   justify-content: space-between;
@@ -217,6 +218,86 @@ main{
   font-size: 17px;
 }
 
+/*
+ * Location on homepage
+ */
+
+.contact{
+  margin-top: 6em;  
+  display: flex;
+}
+
+.location{
+  height: 25em;
+  width: 48%;
+  padding: 0 1%;
+}
+
+.contact > div{
+  width: 45.8%;
+  padding: 0 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1.7em;
+  margin-bottom: 2em;
+}
+
+.contact-section{
+  display: block;
+}
+
+.contact p{
+  font-size: 1.2em;
+}
+
+.contact-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact .social-links{
+  display: flex;
+  align-items: flex-end;
+}
+
+.contact .fa{
+  font-size: 1.5em;
+  margin: 0 0 -.2em 1em;
+  padding: .2em;
+}
+
+.message-box{
+  display: flex;
+  justify-content: space-between;
+  height: 3em;
+}
+
+.contact #usermsg{
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  width: 100%;
+  margin-right: .5em;
+  padding-left: .5em;
+  color: rgb(100, 100, 100);
+}
+
+.contact #submitmsg{
+  border-radius: 4px;
+  padding: 0 1em;
+  background-color: #ffd9a4;
+  transition: transfrom ease-in-out 0.2s;
+  border-style: none;
+  box-shadow: 0 4px 0 -2px #aaa;
+}
+
+.contact #submitmsg:hover{
+  transition: transfrom ease-in-out 0.2s;
+  background-color: #ffc16b;
+  transform: scale(1.02);
+  cursor: pointer;
+  transition: 0.3s;
+}
 
 /* ==========================================================================
    Footer
@@ -235,13 +316,16 @@ footer > div{
 }
 
 .social-links .fa {
-  margin: 0 .25rem;
-  background: #f5fcf8;
   color: rgb(70, 70, 70);
-  padding: 12px;
-  font-size: 18px;
-  width: 18px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+}
+
+footer .social-links .fa{
+  margin: 0 .25rem;
+  padding: 12px;
+  font-size: 18px;
+  width: 18px;
+  background: #f5fcf8;
 }
