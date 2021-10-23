@@ -234,8 +234,8 @@ main{
 }
 
 .contact > div{
-  width: 45.8%;
-  padding: 0 65px;
+  width: 40%;
+  padding: 0 5%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
