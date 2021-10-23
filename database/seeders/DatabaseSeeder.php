@@ -48,5 +48,27 @@ class DatabaseSeeder extends Seeder
         $book->img_url = "alles-is-weg.jpeg";
         $book->pages = 184;
         $book->save();
+
+
+        $drink = new \App\Models\Drink();
+        $drink->name = "Thee";
+        $drink->description = "Thee is een warme drank die wordt gemaakt door infusie van de gedroogde bladeren van de theeplant Camellia sinensis. Alle als thee verkochte producten die niet van deze plant afkomstig zijn (bijvoorbeeld kamillethee of rooibos), zijn dan ook geen echte thee maar kruidenthee.";
+        $drink->img_url = "thee.jpg";
+        $drink->hot = 1;
+        $drink->save();
+
+        $drink = new \App\Models\Drink();
+        $drink->name = "Koffie";
+        $drink->description = "Koffie is een meestal warm genuttigde drank, die wordt bereid op basis van water en gedroogde en gebrande pitten van de koffieplant (Coffea spp.) die vanwege hun vorm koffiebonen worden genoemd. Koffie bevat het stimulerende middel cafeïne.";
+        $drink->img_url = "koffie.jpeg";
+        $drink->hot = 1;
+        $drink->save();
+        
+        $drink = new \App\Models\Drink();
+        $drink->name = "Latte macchiato";
+        $drink->description = "Een latte macchiato is een koffiedrank die bestaat uit laagjes van melk en espresso. Latte betekent melk en macchiato staat voor gevlekt. Wat er ontstaat als er op de juiste wijze espresso aan de latte wordt toegevoegd is een vlek in de melk. ";
+        $drink->img_url = "latte.jpg";
+        $drink->hot = 1;
+        $drink->save();
     }
 }

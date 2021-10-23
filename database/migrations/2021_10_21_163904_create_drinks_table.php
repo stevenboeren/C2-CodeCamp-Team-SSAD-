@@ -18,6 +18,7 @@ class CreateDrinksTable extends Migration
             $table->string('name');
             $table->text('description')->nullable();
             $table->string('img_url')->nullable();
+            $table->boolean('hot');
             $table->timestamps();
         });
     }

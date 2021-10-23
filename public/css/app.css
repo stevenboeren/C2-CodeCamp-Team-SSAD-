@@ -159,7 +159,55 @@ main{
   text-decoration: none;
   color: #fff;
   font-size: 18px;
+  transition: transfrom ease-in-out 0.5s;
 }
+
+.selection a:hover{
+  transform: scale(1.02);
+  transition: 0.5s;
+}
+
+/*
+ * Category selection one page
+ */
+.page-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-content-left{
+  width: 60%;
+}
+.page-content-right{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+} 
+
+.page-content-right img{
+  border-radius: 10px;
+  width: 80%;
+  padding: 5px 0px;
+}
+
+.more-info{
+  width: 80%;
+  background-color: rgb(253, 235, 215);
+  border-radius: 10px;
+  border:rgba(255, 196, 101, 0.781) solid 2px;
+  padding: 5px 0px;
+}
+
+.more-info span{
+  font-weight: bold;
+  color: #d47c00;
+}
+
+.more-info p{
+  padding: 0px 5px;
+  font-size: 17px;
+}
+
 
 /* ==========================================================================
    Footer

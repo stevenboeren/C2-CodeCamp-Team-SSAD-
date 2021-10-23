@@ -24,7 +24,7 @@
         <a href="" class="category-item category-large">
             <h2>Frisdranken</h2>
         </a>
-        <a href="" class="category-item category-large">
+        <a href="/drinks/hotdrinks" class="category-item category-large">
             <h2>Warme Dranken</h2>   
         </a>    
     </div>

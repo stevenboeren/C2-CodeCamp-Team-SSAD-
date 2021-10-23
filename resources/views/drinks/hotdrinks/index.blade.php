@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('nav')
-    <nav>   
+    <nav>
         <a href="/">Home</a> |
         <a href="/books">Boeken</a> |
         <a href="/drinks">Dranken</a> |
@@ -14,21 +14,21 @@
 @section('content')
 
 <div class="container">
-	<div class="page-content">
+
+    @foreach($drinks as $drink)
+    <div class="page-content">
 		<div class="page-content-left">
-			<h1>{{ $book->name }}</h1>
-			<p>{{ $book->description }}</p>
+			<h1>{{ $drink->name }}</h1>
+			<p>{{ $drink->description }}</p>
 		</div>
 
 		<div class="page-content-right">
-			<img src="../img/boeken/{{ $book->img_url }}" alt="">
-			<div class="more-info">
-				<p><span>Auteur:</span>  {{ $book->actor }}</p>
-				<p><span>Pagina's:</span>  {{ $book->pages }}</p>
-			</div>
+			<img src="../img/dranken/warmedranken/{{ $drink->img_url }}" alt="">
 		</div>
 	</div>
-	
+    @endforeach
+
 </div>
+    
 
 @endsection
