@@ -13,6 +13,7 @@
 
 @section('content')
 
+<body class="purple white-text">
 <div class="container">
 
     @foreach($drinks as $drink)
