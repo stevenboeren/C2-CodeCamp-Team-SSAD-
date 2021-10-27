@@ -70,5 +70,26 @@ class DatabaseSeeder extends Seeder
         $drink->img_url = "latte.jpg";
         $drink->hot = 1;
         $drink->save();
+
+        $drink = new \App\Models\Drink();
+        $drink->name = "Cola";
+        $drink->description = "Cola is een koolzuurhoudende frisdrank. Het smaakt zoet (maar is qua pH zuur) en bevat circa 28-32 mg cafeïne per 33 cl. Andere belangrijke ingrediënten zijn vanille, kaneel, karamel en citroen. Anders dan de meeste frisdranken bevat het geen citroenzuur, maar fosforzuur.";
+        $drink->img_url = "cola.jpg";
+        $drink->hot = 0;
+        $drink->save();
+
+        $drink = new \App\Models\Drink();
+        $drink->name = "7Up";
+        $drink->description = "7Up of Sevenup is een bruisende drank (prik door koolzuur) die van smaak lijkt op Sprite. 7up wordt verkocht in een groene, plastic fles. Het heeft een lemon-lime (citroen-limoen) smaak en is doorzichtig. ";
+        $drink->img_url = "sevenup.jpg";
+        $drink->hot = 0;
+        $drink->save();
+
+        $drink = new \App\Models\Drink();
+        $drink->name = "Sinas";
+        $drink->description = "Sinas is in Nederland de benaming voor de doorgaans gele of oranje, meestal koolzuurhoudende frisdrank met sinaasappelsmaak. Zoals de meeste frisdranken bevat sinas veel suiker of in de light-versie kunstmatige zoetstoffen. ";
+        $drink->img_url = "sinas.jpg";
+        $drink->hot = 0;
+        $drink->save();
     }
 }

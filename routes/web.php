@@ -27,6 +27,7 @@ Route::get('/books/{book}', [BooksController::class, 'show'])->name('books.show'
 
 Route::get('/drinks', [DrinksController::class, 'index'])->name('drinks.index');
 Route::get('/drinks/hotdrinks', [DrinksController::class, 'hotdrinksindex'])->name('hotdrinks.index');
+Route::get('/drinks/soda', [DrinksController::class, 'sodaindex'])->name('soda.index');
 
 Route::get('/lyrics', [LyricsController::class, 'index'])->name('lyrics.index');
 Route::get('/movies', [MoviesController::class, 'index'])->name('movies.index');

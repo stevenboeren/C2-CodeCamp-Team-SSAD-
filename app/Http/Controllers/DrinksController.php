@@ -18,4 +18,11 @@ class DrinksController extends Controller
         return view('drinks/hotdrinks/index')
                     ->with('drinks', $drinks);
     }
+
+    public function sodaindex()
+    {
+        $drinks = Drink::where('hot', '=', 0)->get();
+        return view('drinks/soda/index')
+                    ->with('drinks', $drinks);
+    }
 }
