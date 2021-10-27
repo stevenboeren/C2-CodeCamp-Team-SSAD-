@@ -3,7 +3,6 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use App\Book;
 
 class DatabaseSeeder extends Seeder
 {
@@ -50,6 +49,7 @@ class DatabaseSeeder extends Seeder
         $book->save();
 
 
+        // Dranken
         $drink = new \App\Models\Drink();
         $drink->name = "Thee";
         $drink->description = "Thee is een warme drank die wordt gemaakt door infusie van de gedroogde bladeren van de theeplant Camellia sinensis. Alle als thee verkochte producten die niet van deze plant afkomstig zijn (bijvoorbeeld kamillethee of rooibos), zijn dan ook geen echte thee maar kruidenthee.";
@@ -91,5 +91,75 @@ class DatabaseSeeder extends Seeder
         $drink->img_url = "sinas.jpg";
         $drink->hot = 0;
         $drink->save();
+
+
+        // Films voor bij acteur Roger Moore
+        $movie = new \App\Models\Movie();
+        $movie->name = "Live and Let Die";
+        $movie->actor = "Roger Moore";
+        $movie->year = 1973;
+        $movie->img_url = "liveandletdie.jpg";
+        $movie->link_url = "https://www.amazon.com/gp/product/B001AQT0WW/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B001AQT0WW&linkCode=as2&tag=wpress-20";
+        $movie->save();
+
+        $movie = new \App\Models\Movie();
+        $movie->name = "The Man with the Golden Gun";
+        $movie->actor = "Roger Moore";
+        $movie->year = 1974;
+        $movie->img_url = "themanwiththegoldengun.jpg";
+        $movie->link_url = "https://www.amazon.com/gp/product/B001U6YI9W/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B001U6YI9W&linkCode=as2&tag=wpress-20";
+        $movie->save();
+
+        $movie = new \App\Models\Movie();
+        $movie->name = "The Spy Who Loved Me";
+        $movie->actor = "Roger Moore";
+        $movie->year = 1977;
+        $movie->img_url = "thespywholovedme.jpg";
+        $movie->link_url = "https://www.amazon.com/gp/product/B009MO4FTM/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B009MO4FTM&linkCode=as2&tag=wpress-20";
+        $movie->save();
+
+        $movie = new \App\Models\Movie();
+        $movie->name = "Moonraker";
+        $movie->actor = "Roger Moore";
+        $movie->year = 1979;
+        $movie->img_url = "moonraker.jpg";
+        $movie->link_url = "https://www.amazon.com/gp/product/B001PO686K/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B001PO686K&linkCode=as2&tag=wpress-20";
+        $movie->save();
+
+        $movie = new \App\Models\Movie();
+        $movie->name = "A View to a Kill";
+        $movie->actor = "Roger Moore";
+        $movie->year = 1985;
+        $movie->img_url = "aviewtoakill1985.jpg";
+        $movie->link_url = "https://www.amazon.com/gp/product/B009L6VWRO/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B009L6VWRO&linkCode=as2&tag=wpress-20&linkId=ZJSYQJLEQNHJ26RQ";
+        $movie->save();
+
+
+        // Flims Acteurs
+        $movieactor = new \App\Models\MoviesActor();
+        $movieactor->fullname = "James Bond (Roger Moore)";
+        $movieactor->description = "Sir Roger George Moore was een Britse acteur die vooral bekend werd door zijn rollen in de series Ivanhoe, The Saint en The Persuaders. Verder speelde hij de rol van geheim agent James Bond.";
+        $movieactor->img_url = "jamesbond.jpg";
+        $movieactor->save();
+
+        $movieactor = new \App\Models\MoviesActor();
+        $movieactor->fullname = "Darth Vader (David Prowse)";
+        $movieactor->description = "Darth Vader is een personage uit de Star Wars-films. Hij is als Sith-leerling ondergeschikt aan keizer Palpatine, ook bekend als Darth Sidious. In de jaren 1977, 1980 en 1983 werd Darth Vader gespeeld door acteur David Prowse en stuntman Bob Anderson. Zijn stem werd echter ingesproken door James Earl Jones, omdat diens stem veel zwaarder, duisterder en dreigender klonk.";
+        $movieactor->img_url = "darthvader.jpg";
+        $movieactor->save();
+
+        $movieactor = new \App\Models\MoviesActor();
+        $movieactor->fullname = "Luke Skywalker (Mark Hamill)";
+        $movieactor->description = "Luke Skywalker is een personage uit de Star Warssaga, gespeeld door acteur Mark Hamill. Luke is de tweelingbroer van prinses Leia. Hun ouders zijn Padmé Amidala en Anakin Skywalker. Skywalker werd opgevoed door zijn oom Owen Lars en tante Beru Whitesun Lars.";
+        $movieactor->img_url = "lukeskywalker.png";
+        $movieactor->save();
+
+        $movieactor = new \App\Models\MoviesActor();
+        $movieactor->fullname = "Timothy Dalton";
+        $movieactor->description = "Dalton groeide op in Manchester. Nadat hij zijn school had afgemaakt, ging hij naar het National Youth Theatre. Hij studeerde twee jaar lang aan de Royal Academy of Dramatic Art. In 1966 ging hij naar het Birmingham Repertory Theatre, waar hij hoofdrollen speelde.";
+        $movieactor->img_url = "timothydalton.jpg";
+        $movieactor->save();
+
+
     }
 }

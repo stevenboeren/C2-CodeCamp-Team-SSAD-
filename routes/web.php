@@ -30,5 +30,8 @@ Route::get('/drinks/hotdrinks', [DrinksController::class, 'hotdrinksindex'])->na
 Route::get('/drinks/soda', [DrinksController::class, 'sodaindex'])->name('soda.index');
 
 Route::get('/lyrics', [LyricsController::class, 'index'])->name('lyrics.index');
+
 Route::get('/movies', [MoviesController::class, 'index'])->name('movies.index');
+Route::get('/movies/{moviesactor}', [MoviesController::class, 'show'])->name('movies.show');
+
 Route::get('/tools', [ToolsController::class, 'index'])->name('tools.index');

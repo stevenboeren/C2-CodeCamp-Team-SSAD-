@@ -33,18 +33,12 @@
         <a class="selection-item" style="background-image: url('/img/films/imbd.png')" href="https://www.imdb.com">
             <span class="item-text">IMBD</span>
         </a>
-        <a class="selection-item" style="background-image: url('/img/films/jamesbond.jpg')" href="">
-            <span class="item-text">James Bond(Roger Moore)</span>
+    
+        @foreach($moviesactors as $moviesactor)
+        <a class="selection-item" style="background-image: url('img/films/{{$moviesactor->img_url}}')" href="/movies/{{ $moviesactor->id }}">
+            <span class="item-text">{{ $moviesactor->fullname }}</span>
         </a>
-        <a class="selection-item" style="background-image: url('/img/films/timothydalton.jpg')" href="">
-            <span class="item-text">Timothy Dalton</span>
-        </a>
-        <a class="selection-item" style="background-image: url('/img/films/darthvader.jpg')" href="">
-            <span class="item-text">Darth Vader</span>
-        </a>
-        <a class="selection-item" style="background-image: url('/img/films/lukeskywalker.png')" href="">
-            <span class="item-text">Luke Skywalker</span>
-        </a>
+        @endforeach
     </div>
 
 </div>    
