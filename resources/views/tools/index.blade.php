@@ -21,30 +21,11 @@
     </div>
     
     <div class="selection">
-        <a class="selection-item" style="background-image: url('/img/gereedschappen/cirkelzaag.jpg')" href="">
-            <span class="item-text">Cirkelzaag</span>
+        @foreach($tools as $tool)
+        <a class="selection-item" style="background-image: url('img/gereedschappen/{{$tool->img_url}}')" href="/tools/{{ $tool->id }}">
+            <span class="item-text">{{ $tool->name }}</span>
         </a>
-        <a class="selection-item" style="background-image: url('/img/gereedschappen/figuurzaag.jpg')" href="">
-            <span class="item-text">Figuurzaag</span>
-        </a>
-        <a class="selection-item" style="background-image: url('/img/gereedschappen/kettingzaag.jpg')" href="">
-            <span class="item-text">Kettingzaag</span>
-        </a>
-        <a class="selection-item" style="background-image: url('/img/gereedschappen/hamer.png')" href="">
-            <span class="item-text">Hamer</span>
-        </a>
-        <a class="selection-item" style="background-image: url('/img/gereedschappen/gatenzaag.jpg')" href="">
-            <span class="item-text">Gatenzaag</span>
-        </a>
-        <a class="selection-item" style="background-image: url('/img/gereedschappen/decoupeerzaag.jpg')" href="">
-            <span class="item-text">Decoupeerzaag</span>
-        </a>
-        <a class="selection-item" style="background-image: url('/img/gereedschappen/schroevendraaier.jpg')" href="">
-            <span class="item-text">Schroevendraaier</span>
-        </a>
-        <a class="selection-item" style="background-image: url('/img/gereedschappen/handzaag.jpg')" href="">
-            <span class="item-text">Handzaag</span>
-        </a>
+        @endforeach
     </div>
 
 </div>

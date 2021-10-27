@@ -18,6 +18,7 @@ class CreateToolsTable extends Migration
             $table->string('name');
             $table->text('description')->nullable();
             $table->string('img_url')->nullable();
+            $table->string('link_url')->nullable();
             $table->timestamps();
         });
     }

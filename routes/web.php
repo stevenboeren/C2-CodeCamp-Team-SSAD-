@@ -35,3 +35,4 @@ Route::get('/movies', [MoviesController::class, 'index'])->name('movies.index');
 Route::get('/movies/{moviesactor}', [MoviesController::class, 'show'])->name('movies.show');
 
 Route::get('/tools', [ToolsController::class, 'index'])->name('tools.index');
+Route::get('/tools/{tool}', [ToolsController::class, 'show'])->name('tools.show');
