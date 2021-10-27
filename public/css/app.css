@@ -196,7 +196,8 @@
   
   .page-content-right img{
     border-radius: 10px;
-    width: 80%;
+    width: 500px;
+    min-width: 60%;
     padding: 5px 0px;
   }
   
