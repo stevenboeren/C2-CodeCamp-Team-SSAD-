@@ -377,7 +377,7 @@ class DatabaseSeeder extends Seeder
         This girl keeps on rising
         Keep on rising up";
         $lyric->year = 2015;
-        $lyric->img_url = "uprinsingmybaby.jpg";
+        $lyric->img_url = "uprisingmybaby.jpg";
         $lyric->save();
 
         $lyric = new \App\Models\Lyric();
@@ -419,7 +419,7 @@ class DatabaseSeeder extends Seeder
         We will be victorious
         (So come on)";
         $lyric->year = 2009;
-        $lyric->img_url = "uprinsingmuse.jpg";
+        $lyric->img_url = "uprisingmuse.jpg";
         $lyric->save();
 
 
