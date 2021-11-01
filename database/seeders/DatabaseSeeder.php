@@ -217,5 +217,289 @@ class DatabaseSeeder extends Seeder
         $tool->link_url = "https://www.hornbach.nl/shop/WITTE-Schroevendraaierset-VDE-Pro-6-delig/6165808/artikel.html";
         $tool->save();
 
+        $lyric = new \App\Models\Lyric();
+        $lyric->songname = "Bohemian Rhapsody";
+        $lyric->songartist = "Queen";
+        $lyric->lyrics = "Is this the real life? 
+        Is this just fantasy?
+        Caught in a landside,
+        No escape from reality
+        Open your eyes,
+        Look up to the skies and see,
+        I'm just a poor boy, I need no sympathy,
+        Because I'm easy come, easy go,
+        Little high, little low,
+        Any way the wind blows doesn't really matter to
+        Me, to me
+        Mamaaa,
+        Just killed a man,
+        Put a gun against his head, pulled my trigger,
+        Now he's dead
+        Mamaaa, life had just begun,
+        But now I've gone and thrown it all away
+        Mama, oooh,
+        Didn't mean to make you cry,
+        If I'm not back again this time tomorrow,
+        Carry on, carry on as if nothing really matters
+        Too late, my time has come,
+        Sends shivers down my spine, body's aching all
+        The time
+        Goodbye, everybody, I've got to go,
+        Gotta leave you all behind and face the truth
+        Mama, oooh
+        I don't want to die,
+        I sometimes wish I'd never been born at all.
+        I see a little silhouetto of a man,
+        Scaramouch, Scaramouch, will you do the Fandango!
+        Thunderbolts and lightning, very, very frightening me
+        Galileo, Galileo
+        Galileo, Galileo
+        Galileo, Figaro - magnificoo
+        I'm just a poor boy nobody loves me
+        He's just a poor boy from a poor family,
+        Spare him his life from this monstrosity
+        Easy come, easy go, will you let me go
+        Bismillah! No, we will not let you go
+        (Let him go!) Bismillah! We will not let you go
+        (Let him go!) Bismillah! We will not let you go
+        (Let me go) Will not let you go
+        (Let me go)(Never) Never let you go
+        (Let me go) (Never) let you go (Let me go) Ah
+        No, no, no, no, no, no, no
+        Oh mama mia, mama mia, mama mia, let me go
+        Beelzebub has a devil put aside for me, for me,
+        For meee
+        So you think you can stop me and spit in my eye
+        So you think you can love me and leave me to die
+        Oh, baby, can't do this to me, baby,
+        Just gotta get out, just gotta get right outta here
+        Nothing really matters, Anyone can see,
+        Nothing really matters,
+        Nothing really matters to me
+        Any way the wind blows...";
+        $lyric->year = 1975;
+        $lyric->img_url = "bohemianrhapsody.png";
+        $lyric->save();
+
+        $lyric = new \App\Models\Lyric();
+        $lyric->songname = "Killer Queen";
+        $lyric->songartist = "Queen";
+        $lyric->lyrics = "She keeps her Moet et Chandon
+        In her pretty cabinet
+        'Let them eat cake', she says
+        Just like Marie Antoinette
+        A built-in remedy
+        For Khrushchev and Kennedy
+        At anytime an invitation
+        You can't decline
+        Caviar and cigarettes
+        Well versed in etiquette
+        Extraordinarily nice
+        She's a Killer Queen
+        Gunpowder, gelatine
+        Dynamite with a laser beam
+        Guaranteed to blow your mind
+        Anytime
+        Recommended at the price
+        Insatiable an appetite
+        Wanna try?
+        To avoid complications
+        She never kept the same address
+        In conversation
+        She spoke just like a baroness
+        Met a man from China
+        Went down to Geisha Minah
+        Then again incidentally
+        If you're that way inclined
+        Perfume came naturally from Paris (naturally)
+        For cars she couldn't care less
+        Fastidious and precise
+        She's a Killer Queen
+        Gunpowder, gelatine
+        Dynamite with a laser beam
+        Guaranteed to blow your mind
+        Anytime
+        Drop of a hat she's as willing as
+        Playful as a pussy cat
+        Then momentarily out of action
+        Temporarily out of gas
+        To absolutely drive you wild, wild
+        She's all out to get you
+        She's a Killer Queen
+        Gunpowder, gelatine
+        Dynamite with a laser beam
+        Guaranteed to blow your mind
+        Anytime
+        Recommended at the price
+        Insatiable an appetite
+        Wanna try?
+        You wanna try";
+        $lyric->year = 1974;
+        $lyric->img_url = "killerqueen.jpg";
+        $lyric->save();
+
+
+        $lyric = new \App\Models\Lyric();
+        $lyric->songname = "Uprinsing";
+        $lyric->songartist = "My Baby";
+        $lyric->lyrics = "Allow me in your tub
+        Just allow me in your club
+        Allow me to drink from your cup
+        I'll be coming back for more
+        Allow me in your dream
+        Allow me in your scene
+        Just allow me on your knees
+        I'll be coming back for more
+        Sisters, keep on rising
+        Brothers, keep on rising
+        This girl keeps on rising
+        Keep on rising up
+        All I Believe in your school
+        I Believe in your rules
+        I Believe in your truth
+        I'll be coming back for more
+        I Believe in your land
+        I Believe in that man
+        I Believe in your command
+        I'll be coming back for more
+        Sisters, Brothers, Lovers
+        Keep on rising up
+        Sisters, keep on rising
+        Brothers, keep on rising
+        This girl keeps on rising
+        Keep on rising up
+        Uprising, uprising
+        Uprising, uprising
+        Sisters, Brothers, Lovers
+        This girl keep on rising up
+        Sisters, keep on rising
+        Brothers, keep on rising
+        This girl keeps on rising
+        Keep on rising up";
+        $lyric->year = 2015;
+        $lyric->img_url = "uprinsingmybaby.jpg";
+        $lyric->save();
+
+        $lyric = new \App\Models\Lyric();
+        $lyric->songname = "Uprinsing";
+        $lyric->songartist = "Muse";
+        $lyric->lyrics = "Paranoia is in bloom
+        The PR transmissions will resume
+        They'll try to push drugs that keep us all dumbed down
+        And hope that we will never see the truth around
+        (So come on)
+        Another promise, another scene
+        Another packaged lie to keep us trapped in greed
+        And all the green belts wrapped around our minds
+        And endless red tape to keep the truth confined
+        (So come on)
+        They will not force us
+        They will stop degrading us
+        They will not control us
+        We will be victorious
+        (So come on)
+        Interchanging mind control
+        Come, let the revolution take its toll
+        If you could flick the switch and open your third eye
+        You'd see that we should never be afraid to die
+        (So come on)
+        Rise up and take the power back
+        It's time the fat cats had a heart attack
+        You know that their time's coming to an end
+        We have to unify and watch our flag ascend
+        (So come on)
+        They will not force us
+        They will stop degrading us
+        They will not control us
+        We will be victorious
+        (So come on)
+        They will not force us
+        They will stop degrading us
+        They will not control us
+        We will be victorious
+        (So come on)";
+        $lyric->year = 2009;
+        $lyric->img_url = "uprinsingmuse.jpg";
+        $lyric->save();
+
+
+        $lyric = new \App\Models\Lyric();
+        $lyric->songname = "Plug In Baby";
+        $lyric->songartist = "Muse";
+        $lyric->lyrics = "I've exposed your lies, baby
+        The underneath no big surprise
+        Now it's time for changing
+        And cleansing everything
+        To forget your love
+        My plug in baby
+        Crucifies my enemies
+        When I'm tired of giving
+        My plug in baby
+        In unbroken virgin realities
+        Is tired of living
+        Don't confuse
+        Baby you're gonna lose
+        Your own game
+        Change me
+        And replace the envying
+        To forget your love
+        My plug in baby
+        Crucifies my enemies
+        When I'm tired of giving
+        My plug in baby
+        In unbroken virgin realities
+        And tired of living
+        And I've seen your loving
+        Mine is gone";
+        $lyric->year = 2001;
+        $lyric->img_url = "pluginbaby.jpg";
+        $lyric->save();
+
+        $lyric = new \App\Models\Lyric();
+        $lyric->songname = "We Are The Champions";
+        $lyric->songartist = "Queen";
+        $lyric->lyrics = "I've paid my dues
+        Time after time
+        I've done my sentence
+        But committed no crime
+        And bad mistakes
+        I've made a few
+        I've had my share of sand
+        Kicked in my face
+        But I've come through
+        And we mean to go on and on and on and on
+        We are the champions, my friends
+        And we'll keep on fighting till the end
+        We are the champions
+        We are the champions
+        No time for losers
+        'Cause we are the champions of the World
+        I've taken my bows
+        And my curtain calls
+        You brought me fame and fortune
+        And everything that goes with it
+        I thank you all
+        But it's been no bed of roses
+        No pleasure cruise
+        I consider it a challenge before
+        The human race
+        And I ain't gonna lose
+        And we mean to go on and on and on and on
+        We are the champions, my friends
+        And we'll keep on fighting till the end
+        We are the champions
+        We are the champions
+        No time for losers
+        'Cause we are the champions of the World
+        We are the champions, my friends
+        And we'll keep on fighting till the end
+        We are the champions
+        We are the champions
+        No time for losers
+        'Cause we are the champions of the World";
+        $lyric->year = 2001;
+        $lyric->img_url = "wearethechampions.jpg";
+        $lyric->save();
+
     }
 }
