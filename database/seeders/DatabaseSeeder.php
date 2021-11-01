@@ -220,7 +220,7 @@ class DatabaseSeeder extends Seeder
         $lyric = new \App\Models\Lyric();
         $lyric->songname = "Bohemian Rhapsody";
         $lyric->songartist = "Queen";
-        $lyric->lyrics = "Is this the real life? 
+        $lyric->lyrics = "Is this the real life?
         Is this just fantasy?
         Caught in a landside,
         No escape from reality
@@ -340,7 +340,7 @@ class DatabaseSeeder extends Seeder
 
 
         $lyric = new \App\Models\Lyric();
-        $lyric->songname = "Uprinsing";
+        $lyric->songname = "Uprising";
         $lyric->songartist = "My Baby";
         $lyric->lyrics = "Allow me in your tub
         Just allow me in your club
@@ -377,11 +377,11 @@ class DatabaseSeeder extends Seeder
         This girl keeps on rising
         Keep on rising up";
         $lyric->year = 2015;
-        $lyric->img_url = "uprinsingmybaby.jpg";
+        $lyric->img_url = "uprisingmybaby.jpg";
         $lyric->save();
 
         $lyric = new \App\Models\Lyric();
-        $lyric->songname = "Uprinsing";
+        $lyric->songname = "Uprising";
         $lyric->songartist = "Muse";
         $lyric->lyrics = "Paranoia is in bloom
         The PR transmissions will resume
@@ -419,7 +419,7 @@ class DatabaseSeeder extends Seeder
         We will be victorious
         (So come on)";
         $lyric->year = 2009;
-        $lyric->img_url = "uprinsingmuse.jpg";
+        $lyric->img_url = "uprisingmuse.jpg";
         $lyric->save();
 
 
