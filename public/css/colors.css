@@ -1,25 +1,28 @@
 .purple{
     background-color: rgba(166, 0, 207, 0.671);
+    color: white;
 }
 
 .white-text{
     color: white;
 }
 
-
-
 .red{
     background-color: #cc0000;
+    color: white;
 }
 
 .green{
     background-color: #317f43;
+    color: red;
 }
 
 .blue{
     background-color: #4682b4;
+    color: white;
 }
 
 .orange{
     background-color: #b97d4b;
+    color: white;
 }

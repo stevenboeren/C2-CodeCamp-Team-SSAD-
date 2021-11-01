@@ -207,6 +207,7 @@
     border-radius: 10px;
     border:rgba(255, 196, 101, 0.781) solid 2px;
     padding: 5px 0px;
+    color: black;
   }
   
   .more-info span{

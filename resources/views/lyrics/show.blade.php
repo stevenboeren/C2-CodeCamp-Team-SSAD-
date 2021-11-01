@@ -13,6 +13,7 @@
 
 @section('content')
 
+<?php if($lyrics->color) echo "<body class='$lyrics->color'>" ?>
 <div class="container">
 	<div class="page-content">
 		<div class="page-content-left">
