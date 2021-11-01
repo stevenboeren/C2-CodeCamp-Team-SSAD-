@@ -278,6 +278,7 @@ class DatabaseSeeder extends Seeder
         Nothing really matters to me
         Any way the wind blows...";
         $lyric->year = 1975;
+        $lyric->color = "blue";
         $lyric->img_url = "bohemianrhapsody.png";
         $lyric->save();
 
@@ -335,6 +336,7 @@ class DatabaseSeeder extends Seeder
         Wanna try?
         You wanna try";
         $lyric->year = 1974;
+        $lyric->color = "blue";
         $lyric->img_url = "killerqueen.jpg";
         $lyric->save();
 
@@ -377,6 +379,7 @@ class DatabaseSeeder extends Seeder
         This girl keeps on rising
         Keep on rising up";
         $lyric->year = 2015;
+        $lyric->color = "green";
         $lyric->img_url = "uprisingmybaby.jpg";
         $lyric->save();
 
@@ -419,6 +422,7 @@ class DatabaseSeeder extends Seeder
         We will be victorious
         (So come on)";
         $lyric->year = 2009;
+        $lyric->color = "green";
         $lyric->img_url = "uprisingmuse.jpg";
         $lyric->save();
 
@@ -452,6 +456,7 @@ class DatabaseSeeder extends Seeder
         And I've seen your loving
         Mine is gone";
         $lyric->year = 2001;
+        $lyric->color = "red";
         $lyric->img_url = "pluginbaby.jpg";
         $lyric->save();
 
@@ -498,6 +503,7 @@ class DatabaseSeeder extends Seeder
         No time for losers
         'Cause we are the champions of the World";
         $lyric->year = 2001;
+        $lyric->color = "blue";
         $lyric->img_url = "wearethechampions.jpg";
         $lyric->save();
 
