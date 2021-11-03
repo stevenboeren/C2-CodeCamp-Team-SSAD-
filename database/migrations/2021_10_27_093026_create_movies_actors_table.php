@@ -18,6 +18,7 @@ class CreateMoviesActorsTable extends Migration
             $table->string('fullname');
             $table->text('description')->nullable();
             $table->string('img_url')->nullable();
+            $table->string('color')->nullable();
             $table->timestamps();
         });
     }

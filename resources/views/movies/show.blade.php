@@ -13,6 +13,7 @@
 
 @section('content')
 
+<?php if($moviesactor->color) echo "<body class='$moviesactor->color'>" ?>
 <div class="container">
 	<div class="page-content">
 		<div class="page-content-left">

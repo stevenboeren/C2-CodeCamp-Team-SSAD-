@@ -146,18 +146,21 @@ class DatabaseSeeder extends Seeder
         $movieactor->fullname = "Darth Vader (David Prowse)";
         $movieactor->description = "Darth Vader is een personage uit de Star Wars-films. Hij is als Sith-leerling ondergeschikt aan keizer Palpatine, ook bekend als Darth Sidious. In de jaren 1977, 1980 en 1983 werd Darth Vader gespeeld door acteur David Prowse en stuntman Bob Anderson. Zijn stem werd echter ingesproken door James Earl Jones, omdat diens stem veel zwaarder, duisterder en dreigender klonk.";
         $movieactor->img_url = "darthvader.jpg";
+        $movieactor->color = "yellow";
         $movieactor->save();
 
         $movieactor = new \App\Models\MoviesActor();
         $movieactor->fullname = "Luke Skywalker (Mark Hamill)";
         $movieactor->description = "Luke Skywalker is een personage uit de Star Warssaga, gespeeld door acteur Mark Hamill. Luke is de tweelingbroer van prinses Leia. Hun ouders zijn Padmé Amidala en Anakin Skywalker. Skywalker werd opgevoed door zijn oom Owen Lars en tante Beru Whitesun Lars.";
         $movieactor->img_url = "lukeskywalker.png";
+        $movieactor->color = "green";
         $movieactor->save();
 
         $movieactor = new \App\Models\MoviesActor();
         $movieactor->fullname = "Timothy Dalton";
         $movieactor->description = "Dalton groeide op in Manchester. Nadat hij zijn school had afgemaakt, ging hij naar het National Youth Theatre. Hij studeerde twee jaar lang aan de Royal Academy of Dramatic Art. In 1966 ging hij naar het Birmingham Repertory Theatre, waar hij hoofdrollen speelde.";
         $movieactor->img_url = "timothydalton.jpg";
+        $movieactor->color = "green";
         $movieactor->save();
 
         // Gereedschappen
