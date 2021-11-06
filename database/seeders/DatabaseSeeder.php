@@ -163,6 +163,13 @@ class DatabaseSeeder extends Seeder
         $movieactor->color = "green";
         $movieactor->save();
 
+        $movieactor = new \App\Models\MoviesActor();
+        $movieactor->fullname = "George Clooney";
+        $movieactor->description = "George Timothy Clooney (Lexington, Kentucky, 6 mei 1961) is een Amerikaans acteur, regisseur, scenarioschrijver en producent met meer dan dertig filmprijzen en nominaties op zijn naam. Voor de film Syriana won hij een Oscar voor beste mannelijke bijrol. Tevens won hij als producent een Oscar voor beste film voor Argo.";
+        $movieactor->img_url = "georgeclooney.jpg";
+        $movieactor->color = "";
+        $movieactor->save();
+
         // Gereedschappen
         $tool = new \App\Models\Tool();
         $tool->name = "Cirkelzaag";
