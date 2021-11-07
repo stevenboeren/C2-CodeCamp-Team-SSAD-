@@ -21,17 +21,8 @@
     </div>
     
     <div class="selection">
-        <a class="selection-item" style="background-image: url('/img/films/movies.png')" href="https://www.movies.nl">
-            <span class="item-text">Movies.nl</span>
-        </a>
-        <a class="selection-item" style="background-image: url('/img/films/videoland.jpg')" href="https://www.videoland.com/nl/">
-            <span class="item-text">Videoland</span>
-        </a>
         <a class="selection-item" style="background-image: url('/img/films/netflix.jpg')" href="https://www.netflix.com/browse">
             <span class="item-text">Netflix</span>
-        </a>
-        <a class="selection-item" style="background-image: url('/img/films/imbd.png')" href="https://www.imdb.com">
-            <span class="item-text">IMBD</span>
         </a>
     
         @foreach($moviesactors as $moviesactor)
