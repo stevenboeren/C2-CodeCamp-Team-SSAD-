@@ -21,15 +21,17 @@
 		<div class="page-content-left">
 			<h1>{{ $drink->name }}</h1>
 			<p>{{ $drink->description }}</p>
+            <?php if($drink->name == "Cola") echo "<a href='/movies/1' class='button'>Ga naar Roger Moore</a>" ?>
 		</div>
 
 		<div class="page-content-right">
 			<img src="../img/dranken/frisdranken/{{ $drink->img_url }}" alt="">
 		</div>
+
 	</div>
     @endforeach
 
 </div>
-    
+
 
 @endsection

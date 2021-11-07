@@ -21,6 +21,7 @@
 		<div class="page-content-left">
 			<h1>{{ $drink->name }}</h1>
 			<p>{{ $drink->description }}</p>
+            <?php if($drink->name == "Koffie") echo "<a href='/movies/5' class='button'>Ga naar George Clooney</a>" ?>
 		</div>
 
 		<div class="page-content-right">
@@ -30,6 +31,6 @@
     @endforeach
 
 </div>
-    
+
 
 @endsection
