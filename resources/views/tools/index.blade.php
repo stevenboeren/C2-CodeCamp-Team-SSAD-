@@ -21,6 +21,9 @@
     </div>
     
     <div class="selection">
+        <a class="selection-item" style="background-image: url('img/gereedschappen/zagen.jpg')" href="/saws">
+            <span class="item-text">Zagen</span>
+        </a>
         @foreach($tools as $tool)
         <a class="selection-item" style="background-image: url('img/gereedschappen/{{$tool->img_url}}')" href="/tools/{{ $tool->id }}">
             <span class="item-text">{{ $tool->name }}</span>
