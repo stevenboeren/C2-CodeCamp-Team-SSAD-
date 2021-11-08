@@ -142,7 +142,7 @@ class DatabaseSeeder extends Seeder
         $movie->save();
 
 
-        // Flims Acteurs
+        // Films en Acteurs
         $movieactor = new \App\Models\MoviesActor();
         $movieactor->fullname = "James Bond (Roger Moore)";
         $movieactor->description = "Sir Roger George Moore was een Britse acteur die vooral bekend werd door zijn rollen in de series Ivanhoe, The Saint en The Persuaders. Verder speelde hij de rol van geheim agent James Bond.";
@@ -179,52 +179,10 @@ class DatabaseSeeder extends Seeder
 
         // Gereedschappen
         $tool = new \App\Models\Tool();
-        $tool->name = "Cirkelzaag";
-        $tool->description = "Een cirkelzaag voor non-ferromaterialen wordt meestal gebruikt om hout mee te zagen. Op de tanden van de zaag wordt een stukje snelstaal gesoldeerd, waardoor de slijtage sterk afneemt. De belangrijkste veiligheidsvoorzieningen zijn het spouwmes en de kap.";
-        $tool->img_url = "cirkelzaag.jpg";
-        $tool->link_url = "https://www.hornbach.nl/shop/MAKITA-Handcirkelzaag-HS7601J/5810698/artikel.html";
-        $tool->save();
-
-        $tool = new \App\Models\Tool();
-        $tool->name = "Decoupeerzaag";
-        $tool->description = "Een decoupeerzaag is een kort zaagblad (5 à 10 cm lang, circa 1 cm breed) dat door middel van de elektromotor in een decoupeerzaagmachine op en neer bewogen wordt. De machine inclusief het zaagje wordt eveneens decoupeerzaag of ook wel wipzaag genoemd.";
-        $tool->img_url = "decoupeerzaag.jpg";
-        $tool->link_url = "https://www.hornbach.nl/shop/BOSCH-Decoupeerzaag-PST-900-PEL/8115897/artikel.html";
-        $tool->save();
-
-        $tool = new \App\Models\Tool();
-        $tool->name = "Figuurzaag";
-        $tool->description = "Een figuurzaag is een stuk gereedschap waarmee plaatmateriaal en werkstukken van geringe omvang nauwkeurig kunnen worden gezaagd. Er zijn figuurzaagjes die uitsluitend geschikt zijn voor houten en kunststoffen voorwerpen en hiermee kunnen voorwerpen tot enkele millimeters dik worden gezaagd.";
-        $tool->img_url = "figuurzaag.jpg";
-        $tool->link_url = "https://www.hornbach.nl/shop/ATIKA-Figuurzaagmachine-DKV-400-2/6254153/artikel.html";
-        $tool->save();
-
-        $tool = new \App\Models\Tool();
-        $tool->name = "Gatenzaag";
-        $tool->description = "Een gatenzaag (ook wel een gatzaag of klokboor genoemd) is een hulpmiddel om grote gaten te maken, groter dan met een boor mogelijk is. Terwijl een boor alle materiaal uit het gat verspaant tot zaagsel, laat de gatenzaag een ronde schijf achter, met in het midden een gat.";
-        $tool->img_url = "gatenzaag.jpg";
-        $tool->link_url = "https://www.hornbach.nl/shop/WOLFCRAFT-Gatzaagset-bi-metaal-25-68-mm-6-delig/3709475/artikel.html";
-        $tool->save();
-
-        $tool = new \App\Models\Tool();
         $tool->name = "Hamer";
         $tool->description = "Een hamer is een klop- of slagwerktuig. Een hamer bestaat uit een steel, het handvat, met aan het eind de zogenaamde hamerkop. Een metalen hamerkop van 50-300 gram op een houten steel van ca. 30 cm lang die onder meer wordt gebruikt om spijkers (draadnagels) in houten voorwerpen te slaan.";
         $tool->img_url = "hamer.png";
         $tool->link_url = "https://www.hornbach.nl/shop/STANLEY-FATMAX-Klauwhamer-AntiVibe-450-gr/5658125/artikel.html";
-        $tool->save();
-
-        $tool = new \App\Models\Tool();
-        $tool->name = "Handzaag";
-        $tool->description = "Een handzaag is een zaag met een taps toelopend, veerkrachtig stalen zaagblad dat voorzien is van een handvat. Het blad is ongeveer 1 mm dik, 400 à 500 mm lang, en circa 100 mm breed.";
-        $tool->img_url = "handzaag.jpg";
-        $tool->link_url = "https://www.hornbach.nl/shop/Handzaag-350-mm/5136687/artikel.html";
-        $tool->save();
-
-        $tool = new \App\Models\Tool();
-        $tool->name = "Kettingzaag";
-        $tool->description = "Een kettingzaag (ook motorzaag, motorkettingzaag of boomzaag genoemd) is een draagbare machine om mee te zagen. De belangrijkste functie is hout zagen. Een kettingzaag is onnauwkeurig en levert een vrij brede en rafelige zaagsnede op, maar is door zijn handzaamheid en lange zaagblad uitermate geschikt om gehele bomen om te zagen of tot brandhout te verwerken.";
-        $tool->img_url = "kettingzaag.jpg";
-        $tool->link_url = "https://www.hornbach.nl/shop/MAKITA-Benzine-kettingzaag-2-takt-EA3201S35A-35-cm/6808056/artikel.html";
         $tool->save();
 
         $tool = new \App\Models\Tool();
@@ -234,6 +192,50 @@ class DatabaseSeeder extends Seeder
         $tool->link_url = "https://www.hornbach.nl/shop/WITTE-Schroevendraaierset-VDE-Pro-6-delig/6165808/artikel.html";
         $tool->save();
 
+        // Gereedschappen
+        $saw = new \App\Models\Saw();
+        $saw->name = "Cirkelzaag";
+        $saw->description = "Een cirkelzaag voor non-ferromaterialen wordt meestal gebruikt om hout mee te zagen. Op de tanden van de zaag wordt een stukje snelstaal gesoldeerd, waardoor de slijtage sterk afneemt. De belangrijkste veiligheidsvoorzieningen zijn het spouwmes en de kap.";
+        $saw->img_url = "cirkelzaag.jpg";
+        $saw->link_url = "https://www.hornbach.nl/shop/MAKITA-Handcirkelzaag-HS7601J/5810698/artikel.html";
+        $saw->save();
+
+        $saw = new \App\Models\Saw();
+        $saw->name = "Decoupeerzaag";
+        $saw->description = "Een decoupeerzaag is een kort zaagblad (5 à 10 cm lang, circa 1 cm breed) dat door middel van de elektromotor in een decoupeerzaagmachine op en neer bewogen wordt. De machine inclusief het zaagje wordt eveneens decoupeerzaag of ook wel wipzaag genoemd.";
+        $saw->img_url = "decoupeerzaag.jpg";
+        $saw->link_url = "https://www.hornbach.nl/shop/BOSCH-Decoupeerzaag-PST-900-PEL/8115897/artikel.html";
+        $saw->save();
+
+        $saw = new \App\Models\Saw();
+        $saw->name = "Figuurzaag";
+        $saw->description = "Een figuurzaag is een stuk gereedschap waarmee plaatmateriaal en werkstukken van geringe omvang nauwkeurig kunnen worden gezaagd. Er zijn figuurzaagjes die uitsluitend geschikt zijn voor houten en kunststoffen voorwerpen en hiermee kunnen voorwerpen tot enkele millimeters dik worden gezaagd.";
+        $saw->img_url = "figuurzaag.jpg";
+        $saw->link_url = "https://www.hornbach.nl/shop/ATIKA-Figuurzaagmachine-DKV-400-2/6254153/artikel.html";
+        $saw->save();
+
+        $saw = new \App\Models\Saw();
+        $saw->name = "Gatenzaag";
+        $saw->description = "Een gatenzaag (ook wel een gatzaag of klokboor genoemd) is een hulpmiddel om grote gaten te maken, groter dan met een boor mogelijk is. Terwijl een boor alle materiaal uit het gat verspaant tot zaagsel, laat de gatenzaag een ronde schijf achter, met in het midden een gat.";
+        $saw->img_url = "gatenzaag.jpg";
+        $saw->link_url = "https://www.hornbach.nl/shop/WOLFCRAFT-Gatzaagset-bi-metaal-25-68-mm-6-delig/3709475/artikel.html";
+        $saw->save();
+
+        $saw = new \App\Models\Saw();
+        $saw->name = "Handzaag";
+        $saw->description = "Een handzaag is een zaag met een taps toelopend, veerkrachtig stalen zaagblad dat voorzien is van een handvat. Het blad is ongeveer 1 mm dik, 400 à 500 mm lang, en circa 100 mm breed.";
+        $saw->img_url = "handzaag.jpg";
+        $saw->link_url = "https://www.hornbach.nl/shop/Handzaag-350-mm/5136687/artikel.html";
+        $saw->save();
+
+        $saw = new \App\Models\Saw();
+        $saw->name = "Kettingzaag";
+        $saw->description = "Een kettingzaag (ook motorzaag, motorkettingzaag of boomzaag genoemd) is een draagbare machine om mee te zagen. De belangrijkste functie is hout zagen. Een kettingzaag is onnauwkeurig en levert een vrij brede en rafelige zaagsnede op, maar is door zijn handzaamheid en lange zaagblad uitermate geschikt om gehele bomen om te zagen of tot brandhout te verwerken.";
+        $saw->img_url = "kettingzaag.jpg";
+        $saw->link_url = "https://www.hornbach.nl/shop/MAKITA-Benzine-kettingzaag-2-takt-EA3201S35A-35-cm/6808056/artikel.html";
+        $saw->save();
+        
+        // Songteksten
         $lyric = new \App\Models\Lyric();
         $lyric->songname = "Bohemian Rhapsody";
         $lyric->songartist = "Queen";

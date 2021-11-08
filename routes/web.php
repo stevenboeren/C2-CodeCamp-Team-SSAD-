@@ -7,6 +7,7 @@ use App\Http\Controllers\DrinksController;
 use App\Http\Controllers\LyricsController;
 use App\Http\Controllers\MoviesController;
 use App\Http\Controllers\ToolsController;
+use App\Http\Controllers\SawsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,3 +38,6 @@ Route::get('/movies/{moviesactor}', [MoviesController::class, 'show'])->name('mo
 
 Route::get('/tools', [ToolsController::class, 'index'])->name('tools.index');
 Route::get('/tools/{tool}', [ToolsController::class, 'show'])->name('tools.show');
+
+Route::get('/saws', [SawsController::class, 'index'])->name('saws.index');
+Route::get('/saws/{saw}', [SawsController::class, 'show'])->name('saws.show');
