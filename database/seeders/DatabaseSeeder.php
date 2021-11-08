@@ -15,6 +15,12 @@ class DatabaseSeeder extends Seeder
     {
         // \App\Models\User::factory(10)->create();
 
+        $user = new User();
+        $user->name = "admin";
+        $user->email = "beheer@example.com";
+        $user->password = '$2y$10$Sf1WWWwNabgL25bkqN6KOuwZ/X2cSiizo/1ePM9DRuLsoG2Bc4fqC';
+        $user->save();
+
         // Boeken 
         $book = new \App\Models\Book();
         $book->name = "Zuurstofschuld";
