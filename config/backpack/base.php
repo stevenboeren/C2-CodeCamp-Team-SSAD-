@@ -24,7 +24,7 @@ return [
     // ----
 
     // Project name. Shown in the window title.
-    'project_name' => 'MediaPortal Admin Panel',
+    'project_name' => 'MediaPortal',
 
     // When clicking on the admin panel's top-left logo/name,
     // where should the user be redirected?
@@ -42,8 +42,9 @@ return [
 
     // CSS files that are loaded in all pages, using Laravel's asset() helper
     'styles' => [
+
         'packages/backpack/base/css/bundle.css', // has primary color electric purple (backpack default)
-        // 'packages/backpack/base/css/blue-bundle.css', // has primary color blue
+        'packages/backpack/base/css/blue-bundle.css', // has primary color blue
 
         // Here's what's inside the bundle:
         // 'packages/@digitallyhappy/backstrap/css/style.min.css',
@@ -51,9 +52,11 @@ return [
         // 'packages/noty/noty.css',
 
         // Load the fonts separately (so that you can replace them at will):
+
         'packages/source-sans-pro/source-sans-pro.css',
         'packages/line-awesome/css/line-awesome.min.css',
-
+        'https://fonts.googleapis.com/css2?family=Ubuntu&display=swap',
+        '/css/admin.css',
         // Example (the fonts above, loaded from CDN instead)
         // 'https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css',
         // 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic',
@@ -72,7 +75,10 @@ return [
     // ------
 
     // Menu logo. You can replace this with an <img> tag if you have a logo.
-    'project_logo'   => '<b>Media</b>Portal',
+    'project_logo'   => '<div class="logo-section">
+                    <img class="logo" src="/img/logo.png" alt="logo">
+                    <h1>MediaPortal</h1>
+                </div>',
 
     // Show / hide breadcrumbs on admin panel pages.
     'breadcrumbs' => true,
@@ -106,10 +112,10 @@ return [
     // change background color with bg-dark, bg-primary, bg-secondary, bg-danger, bg-warning, bg-success, bg-info, bg-blue, bg-light-blue, bg-indigo, bg-purple, bg-pink, bg-red, bg-orange, bg-yellow, bg-green, bg-teal, bg-cyan, bg-white
 
     // Developer or company name. Shown in footer.
-    'developer_name' => 'Cristian Tabacitu',
+    'developer_name' => 'Team SSADJ',
 
     // Developer website. Link in footer. Type false if you want to hide it.
-    'developer_link' => 'http://tabacitu.ro',
+    'developer_link' => 'https://github.com/stevenboeren/C2-CodeCamp-Team-SSADJ-',
 
     // Show powered by Laravel Backpack in the footer? true/false
     'show_powered_by' => true,
