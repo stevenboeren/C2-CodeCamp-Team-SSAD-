@@ -20,6 +20,7 @@ class CreateBooksTable extends Migration
             $table->text('description')->nullable();
             $table->string('img_url')->nullable();
             $table->integer('pages')->nullable();
+            $table->float('price')->default(0);
             $table->timestamps();
         });
     }
